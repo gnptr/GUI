@@ -29,12 +29,12 @@ public class FormMahasiswa {
                 mhs.setNama(Nama);
                 mhs.setNim(Nim);
                 labelnama.setText("Nama : " + mhs.getNama());
-                labelnim.setText("NIM :" + mhs.getNim());
-                labeljenjang.setText("Jenjang Pendidikan :" + mhs.getJenjangPendidikan());
-                labeltahun.setText("Tahun Masuk :" + mhs.getTahunMasuk());
-                labelfakultas.setText("Fakultas :" + mhs.getFakultas());
-                labeljurusan.setText("Jurusan :" + mhs.getJurusan());
-                labeljenis.setText("Jenis Kelamin :" + mhs.getJenisKelamin());
+                labelnim.setText("NIM : " + mhs.getNim());
+                labeljenjang.setText("Jenjang Pendidikan : " + mhs.getJenjangPendidikan());
+                labeltahun.setText("Tahun Masuk : " + mhs.getTahunMasuk());
+                labelfakultas.setText("Fakultas : " + mhs.getFakultas());
+                labeljurusan.setText("Jurusan : " + mhs.getJurusan());
+                labeljenis.setText("Jenis Kelamin : " + mhs.getJenisKelamin());
                 labelnomor.setText(mhs.getNomorUrut());
 
             }
